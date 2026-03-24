@@ -60,7 +60,7 @@ public class Day11 {
     }
 
     // Q-3
-    public int search(int[] nums, int target) {
+    public int search0(int[] nums, int target) {
         int s = 0;
         int e = nums.length - 1;
         while (s <= e) {
